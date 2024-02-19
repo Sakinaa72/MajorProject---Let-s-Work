@@ -1,0 +1,23 @@
+.languages {
+  border: 1px solid lightgray;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  line-height: 25px;
+}
+
+.languages h1 {
+  font-size: 18px;
+  line-height: 50px;
+}
+.language span {
+  font-size: 16px;
+  color: gray;
+}
+.language p {
+  font-size: 16px;
+}
+.language {
+  margin: 15px 2px;
+}

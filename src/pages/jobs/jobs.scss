@@ -1,0 +1,134 @@
+.job {
+  width: 100%;
+  height: 100%;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .jobSearch {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      all: unset;
+      width: 25%;
+      font-size: 18px;
+      background-color: #f4f4f4;
+      padding: 10px;
+      margin: 5px 2px;
+      border-radius: 25px 0px 0px 25px;
+    }
+    .search {
+      border-radius: 0px 25px 25px 0px;
+      width: 10%;
+    }
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+    .jobs {
+      // border: 2px solid blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 30%;
+      max-height: 75vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      .multipleJobs {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        width: 100%;
+        line-height: 25px;
+        border-bottom: 1px solid lightgray;
+        padding-left: 5px;
+
+        h4 {
+          font-weight: 400;
+        }
+        h3 {
+          font-weight: 500;
+          word-spacing: 2px;
+        }
+
+        .date_apply {
+          display: flex;
+          justify-content: space-between;
+          padding: 5px 8px;
+          font-size: 14px;
+          a {
+            color: var(--themeColor);
+          }
+        }
+      }
+
+      .multipleJobs:hover {
+        border-left: 4px solid gray;
+      }
+    }
+
+    .jobDetail {
+      border: 1px solid lightgray;
+      width: 50%;
+      border-radius: 10px;
+      max-height: 75vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      .detail-intro {
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+
+        h4 {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+        }
+        h3,
+        p {
+          font-size: 22px;
+          font-weight: 600;
+        }
+        button {
+          all: unset;
+          background-color: var(--themeColor);
+          color: white;
+          padding: 10px 20px;
+          font-weight: 500;
+          font-size: 16px;
+          border-radius: 5px;
+        }
+      }
+      section {
+        line-height: 20px;
+        margin: 5px 30px;
+
+        h2 {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+        }
+
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 30px;
+        }
+        li,
+        p {
+          margin: 10px 30px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

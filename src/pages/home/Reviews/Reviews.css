@@ -1,0 +1,50 @@
+.reviews {
+  width: 100%;
+  display: flex;
+}
+.reviews section {
+  background-color: #1f8268;
+  width: 35%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews section h1{
+  font-size: min(2.8rem,42px);
+  width: 70%;
+
+}
+.users {
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem; 
+   
+
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.user {
+  background-color: #f7f2fa ;
+  margin: 1rem;
+  padding: 1.8rem ;
+}
+.user-info span {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px ;
+}
+.user p{
+  line-height: 30px;
+  color: rgb(99, 99, 99);
+}
+.user-info img{
+  height: 70px;
+  width: 70px;
+  border-radius: 30%;
+}

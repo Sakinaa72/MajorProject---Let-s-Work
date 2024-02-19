@@ -1,0 +1,68 @@
+.home {
+  background-color: #f7f2fa;
+  width: 100%;
+  height: 600px;
+  /* position: absolute; */
+  margin: 0px auto;
+}
+
+.home-content {
+  position: relative;
+  /* margin-top: 45px; */
+  line-height: 60px;
+}
+.home-content h1 {
+  color: #1f8268;
+  font-size: 20px;
+  margin: 10px 150px;
+}
+.home-content h2 {
+  margin: auto;
+  text-align: center;
+  color: #190a28;
+  font-size: 56px;
+}
+.home-content h3 {
+  margin: 10px 150px;
+
+  color: #190a28;
+  font-size: 24px;
+  font-weight: 500;
+}
+.input-content {
+  display: flex;
+  margin: 30px 150px;
+}
+.input-content input {
+  all: unset;
+  color: gray;
+  background: white;
+  font-size: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 20px;
+}
+#input-search {
+  border-radius: 10px 0px 0px 10px;
+}
+#input-city {
+  border-radius: 0px 10px 10px 0px;
+  border-left: 1px solid lightgray;
+}
+.search-btn {
+  all: unset;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  background-color: #1f8268;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 2px 20px;
+}
+.home-banner img {
+  position: relative;
+  margin-left: 66%;
+  margin-top: -12%;
+}

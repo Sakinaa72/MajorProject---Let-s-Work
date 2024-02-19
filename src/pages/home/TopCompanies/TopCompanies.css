@@ -1,0 +1,51 @@
+.topcompanies{
+    background-color: #f7f2fa;
+    text-align: center;
+    height: 70vh;
+    margin-bottom: 2rem ;
+}
+.topcompanies h1{
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+.topcompanies section{
+    display: flex;
+    justify-content: center;
+}
+.company{
+    background-color: white ;
+    margin: 1rem ;
+    text-align: start;
+    padding: 1.5rem ;
+    display: flex;
+    flex-direction: column;justify-content: space-between;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 30px;
+}
+.company img{
+    width: 70px;
+    height: 70px;
+    border-radius: 30%
+}
+.company h3{
+    font-size: 20px;
+
+}
+.company button{
+    width: 60%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+   background-color: #1f8268;
+      color: white;
+}
+.company button:hover{
+       background-color: white ;
+       color: black;
+       border: 1px solid #1f8268;
+
+
+}

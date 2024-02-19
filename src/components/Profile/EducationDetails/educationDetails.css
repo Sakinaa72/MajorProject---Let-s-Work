@@ -1,0 +1,23 @@
+.education-details {
+  border: 1px solid lightgray;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  line-height: 25px;
+}
+.education-details h1 {
+  font-size: 18px;
+  line-height: 50px;
+}
+.edu-details h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.edu-details p {
+  font-size: 14px;
+}
+.edu-details span {
+  font-size: 14px;
+  color: gray;
+}

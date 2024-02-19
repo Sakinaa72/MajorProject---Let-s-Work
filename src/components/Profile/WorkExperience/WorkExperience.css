@@ -1,0 +1,27 @@
+.work-experience {
+  border: 1px solid lightgray;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+}
+.work-experience h1 {
+  font-size: 18px;
+  line-height: 50px;
+}
+.work-details {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  align-items: flex-start;
+}
+.work-details h3 {
+  font-size: 16px;
+}
+.work-details h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.work-details p {
+  color: gray;
+}

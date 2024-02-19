@@ -1,0 +1,23 @@
+.personal-details {
+  border: 1px solid lightgray;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  line-height: 25px;
+}
+
+.personal-details h1 {
+  font-size: 18px;
+  line-height: 50px;
+}
+.personal-detail span {
+  font-size: 16px;
+  color: gray;
+}
+.personal-detail p {
+  font-size: 16px;
+}
+.personal-detail {
+  margin: 15px 2px;
+}

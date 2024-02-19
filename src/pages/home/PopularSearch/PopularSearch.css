@@ -1,0 +1,87 @@
+.popular-searches section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  margin: 50px auto;
+}
+.popular-search {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 330px;
+  width: 320px;
+  border: 1px solid lightgray;
+  padding: 42px 27px;
+  margin: 20px 30px;
+  border-radius: 30px;
+}
+.popular-search h1 {
+  font-size: 42px;
+}
+.popular-search button {
+  all: unset;
+  width: 50%;
+  font-size: 18px;
+  color: #190a28;
+  margin-top: 50px;
+}
+.popular-search p {
+  font-size: 16px;
+  color: gray;
+}
+.popular-search span {
+  color: #190a28;
+  font-size: 24px;
+}
+.single-box {
+  border: none;
+}
+.popular-search:hover {
+  border: 1px solid var(--themeColor);
+}
+.popular-search:hover button {
+  background-color: var(--themeColor);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.popular-search img {
+}
+#ps1 {
+  height: 140px;
+  width: 180px;
+  margin-left: -50px;
+  margin-top: 120px;
+}
+#ps2 {
+  height: 140px;
+  width: 180px;
+  margin-left: -70px;
+  margin-top: 120px;
+}
+#ps3 {
+  height: 140px;
+  width: 180px;
+  margin-left: -70px;
+  margin-top: 120px;
+}
+#ps4 {
+  height: 140px;
+  width: 150px;
+  margin-left: -40px;
+  margin-top: 120px;
+}
+#ps5 {
+  height: 170px;
+  width: 150px;
+  margin-left: -50px;
+  margin-top: 150px;
+}
+.popular-search div {
+  display: flex;
+}
