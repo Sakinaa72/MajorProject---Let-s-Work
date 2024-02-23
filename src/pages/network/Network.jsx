@@ -1,170 +1,132 @@
-import Footer from "../../components/Footer/Footer";
-import NavBar from "../../components/navbar/NavBar";
-import "./network.css";
-// import { IoPeopleOutline } from "react-icons/io5";
-// import Button from "@mui/material/Button";
-// import { IoPersonOutline } from "react-icons/io5";
-// import { MdGroups2 } from "react-icons/md";
-// import { SlCalender } from "react-icons/sl";
-// import { RiPagesLine } from "react-icons/ri";
-// import { FaRegNewspaper } from "react-icons/fa6";
-// import { FaHashtag } from "react-icons/fa6";
-// import { FaArrowUp } from "react-icons/fa";
-// import { MdOutlineCancel } from "react-icons/md";
+import "./network.css"
+import Navbar from "../../components/navbar/NavBar"
+import Footer from "../../components/Footer/Footer"
+import user from "../../assets/user-avtar.png"
+import ConnectPeople from "../../components/ConnectPeople/ConnectPeople";
 
-const Network = () => {
+function Network() {
   return (
     <>
-    <NavBar />
-      <div className="main_container">
-        <div className="left_side_bar">
-          <div>
-            <span className="left-box-text">Manage My Network</span>
-
-            <div className="options">
-              <span>
-                {/* <IoPeopleOutline />  */}
-                Connections
-              </span>
-
-              <span>
-                {/* <IoPersonOutline />  */}
-                Following & followers
-              </span>
-
-              <span>
-                {/* <MdGroups2 /> */}
-                 Groups
-              </span>
-
-              <span>
-                {/* <SlCalender />  */}
-                Events
-              </span>
-
-              <span>
-                {/* <RiPagesLine />  */}
-                pages
-              </span>
-
-              <span>
-                {/* <FaRegNewspaper />  */}
-                NewsLetters
-              </span>
-
-              <span>
-                {/* <FaHashtag />  */}
-                Hashtags
-              </span>
-
-              <span>
-                <button className="showless_buttons">
-                  Show less
-                   {/* <FaArrowUp /> */}
-                </button>
-              </span>
-            </div>
+      <Navbar />
+      <div>
+        <div className="network">
+          <div className="manageMyNetwork">
+            <h1>Manage my network</h1>
+            <ul>
+              <div>
+                <li>Connections</li>
+                <span>24</span>
+              </div>
+              <div>
+                <li>Contact</li>
+                <span>78</span>
+              </div>
+              <h2>Follower & Following</h2>
+              <div>
+                <li>Groups</li>
+                <span>11</span>
+              </div>
+              <div>
+                <li>Events</li>
+                <span>2</span>
+              </div>
+              <div>
+                <li>Pages</li>
+                <span>18</span>
+              </div>
+              <div>
+                <li>Newsletters</li>
+                <span>5</span>
+              </div>
+              <div>
+                <li>Hashtags</li>
+                <span>12</span>
+              </div>
+            </ul>
           </div>
-        </div>
-
-        <div className="main_content">
-
-          <div className="top-sections">
-            <span className="right-box-text">Invitation</span>
-            <span>
-              <button className="see_all_button">See all</button>
-            </span>
-          </div>
-
-          <div className="invitation_div">
-
-            <div className="image_div">
-              <img src="/images/user_icon3.png" />
+          <div className="invitations">
+            <div className="invitation_heading">
+              <h1>Invitations</h1>
+              <h2>See All 7</h2>
             </div>
-
-            <div className="information_div">
-
-              <span>Newsletter Daily</span>
-              <span>
-                <b>Atharv Kulkarni</b> invited you to subscribe to{" "}
-                <b>Latest Job Updates</b>
-              </span>
-
-            </div>
-
-            <div className="accept-ignore_button_div">
-
-              <button className="ignore_button">Ignore</button>
-              <button className="accept_button">Accept</button>
-
-            </div>
-          </div>
-          <div className="invitation_div">
-            <div className="image_div">
-              <img src="/images/user_icon3.png" />
-            </div>
-            <div className="information_div">
-
-              <span>Newsletter Daily</span>
-              <span>
-                <b>Atharv Kulkarni</b> invited you to subscribe to{" "}
-                <b>Latest Job Updates</b>
-              </span>
-
-            </div>
-
-            <div className="accept-ignore_button_div">
-              <button className="ignore_button">Ignore</button>
-              <button className="accept_button">Accept</button>
-            </div>
-
-          </div>
-          
-        </div>
-
-        <div>
-          <div className="people_you_may_know">
-            <div className="top-sections">
-              People You May Know From Shivaji University,Kolhapur
-              <span>
-                <button className="see_all_button">See all</button>
-              </span>
-            </div>
-
-            <div className="people_cards">
-              <div className="person1">
-                <span className="cancell_icon">
-                  <button className="cancell_icon_button">
-                    {/* <MdOutlineCancel /> */}
-                  </button>
-                </span>
+            <div className="request">
+              <div className="inviteUser">
+                <img src={user} alt="" />
                 <div>
-                  <img src="/images/user_icon3.png" />
-                </div>
-                <div>
-                  <a href="">
-                    <b>Prathamesh sutar</b>
-                  </a>
-                </div>
-                <div>
-                  <a href="">Global Payroll specialist at Neeyamo</a>
-                </div>
-                <div>
-                  <button className="follow_request_button">
-                    {" "}
-                    {/* <IoPersonOutline />  */}
-                    + Connect
-                  </button>
+                  <h3>Pradnya Patil</h3>
+                  <p></p>
+                  <span></span>
                 </div>
               </div>
+              <div>
+                <button className="ignore">Ignore</button>
+                <button className="accept">Accept</button>
+              </div>
             </div>
-            
+            <div className="request">
+              <div className="inviteUser">
+                <img src={user} alt="" />
+                <div>
+                  <h3>Abhishek Waghmare</h3>
+                  <p></p>
+                  <span></span>
+                </div>
+              </div>
+              <div>
+                <button className="ignore">Ignore</button>
+                <button className="accept">Accept</button>
+              </div>
+            </div>
+            <div className="request">
+              <div className="inviteUser">
+                <img src={user} alt="" />
+                <div>
+                  <h3>Prajwal Kulkarni</h3>
+                  <p></p>
+                  <span></span>
+                </div>
+              </div>
+              <div>
+                <button className="ignore">Ignore</button>
+                <button className="accept">Accept</button>
+              </div>
+            </div>
+            <div className="request">
+              <div className="inviteUser">
+                <img src={user} alt="" />
+                <div>
+                  <h3>Atharva Kulkarni</h3>
+                  <p></p>
+                  <span></span>
+                </div>
+              </div>
+              <div>
+                <button className="ignore">Ignore</button>
+                <button className="accept">Accept</button>
+              </div>
+            </div>
+            <div className="request">
+              <div className="inviteUser">
+                <img src={user} alt="" />
+                <div>
+                  <h3>Sakina Rupani</h3>
+                  <p></p>
+                  <span></span>
+                </div>
+              </div>
+              <div>
+                <button className="ignore">Ignore</button>
+                <button className="accept">Accept</button>
+              </div>
+            </div>
           </div>
         </div>
+      <ConnectPeople />
       </div>
+
       <Footer />
     </>
   );
-};
+}
 
-export default Network;
+export default Network
