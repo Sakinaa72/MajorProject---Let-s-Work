@@ -5,9 +5,8 @@ import NavBar from "../../components/navbar/NavBar";
 function Blog() {
   return (
     <>
-      <NavBar />
-
     <div className="blog">
+      <h1>Blogs</h1>
       <div className="blog-heading">
         <h2>Fresher's Advice</h2>
       </div>
@@ -154,7 +153,6 @@ function Blog() {
           <span>- Feb 7, 2024</span>
         </div>
       </section>
-      <Footer />
     </div>
     </>
   );

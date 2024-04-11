@@ -1,23 +1,22 @@
-.footer{
-    background-color: #f7f2fa;
-    margin-top: 2rem ;
-    display: flex;
-    justify-content: space-around;
+.footer {
+  background-color: #f7f2fa;
+  /* margin-top: 2rem ; */
+  display: flex;
+  justify-content: space-around;
 }
-.foot{
-    padding: 2rem ;
-    line-height: 30px ;
-
+.foot {
+  padding: 2rem;
+  line-height: 30px;
 }
-.foot li{
-    list-style: none;
-    font-size: 18px;
+.foot li {
+  list-style: none;
+  font-size: 18px;
 }
-.foot li:hover{
-    text-decoration: underline var(--themeColor);
-    color: var(--themeColor);
-    cursor: pointer;
+.foot li:hover {
+  text-decoration: underline var(--themeColor);
+  color: var(--themeColor);
+  cursor: pointer;
 }
-.foot h3{
-    font-size: 20px;
+.foot h3 {
+  font-size: 20px;
 }

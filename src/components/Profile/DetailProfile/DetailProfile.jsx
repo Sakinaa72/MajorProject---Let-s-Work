@@ -1,4 +1,4 @@
-import React from "react";
+import "./DetailProfile.css";
 import ProfileSummary from "../ProfileSummary/ProfileSummary";
 import WorkExperience from "../WorkExperience/WorkExperience";
 import EducationDetails from "../EducationDetails/EducationDetails";

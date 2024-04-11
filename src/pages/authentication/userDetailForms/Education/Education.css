@@ -1,0 +1,51 @@
+.Education {
+  display: flex;
+}
+.Education form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6%;
+  margin-left: 2rem;
+  width: 70%;
+}
+.Education form h1 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.Education form h4 {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3%;
+  margin-top: 0.7rem;
+}
+.Education form input {
+  width: 80%;
+  border: 1px solid lightgray;
+  padding: 0.7rem 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#edu-btn {
+  all: unset;
+  margin-top: 50px;
+  background-color: var(--btn);
+  text-align: center;
+  width: 80%;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.grad button {
+  all: unset;
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}

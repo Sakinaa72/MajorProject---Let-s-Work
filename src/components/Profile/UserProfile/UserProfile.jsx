@@ -2,17 +2,19 @@ import "./UserProfile.css";
 import profileBanner from "../../../assets/profile-page-banner.png";
 import userAvatar from "../../../assets/user-avtar.png";
 import location from "../../../assets/icons8-location-50.png";
+import Sakina from "../../../assets/Sakina.jpg";
 import buildings from "../../../assets/icons8-buildings-50.png";
 import email from "../../../assets/icons8-email-50.png";
 import call from "../../../assets/icons8-call-50.png";
 import wallet from "../../../assets/icons8-wallet-50.png";
 import briefcase from "../../../assets/icons8-briefcase-50.png";
+import { NavLink } from "react-router-dom";
 
 function UserProfile() {
   return (
     <div className="profile-card-container">
       <img className="profileBanner" src={profileBanner} alt="" />
-      <img className="userAvatar" src={userAvatar} alt="" />
+      <img className="userAvatar" src={Sakina} alt="" />
       <div className="profile-name">Sakina Shabbir Rupani</div>
       <div className="profile-designation">Full Stack Developer</div>
       <div className="details">
@@ -41,6 +43,11 @@ function UserProfile() {
         <div className="details">
           <img src={email} alt="" />
           <span>sakiname72@gmail.com</span>
+        </div>
+        <div className="details">
+          <button>
+            <NavLink to="/Login"> Log Out</NavLink>
+          </button>
         </div>
       </div>
     </div>

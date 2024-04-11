@@ -1,0 +1,64 @@
+.signin {
+  display: flex;
+  flex-direction: row;
+}
+.authSideBar {
+  height: 100vh;
+  width: 50%;
+  background-color: var(--text);
+  color: white;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: 80px;
+}
+.authSideBar h1 {
+  margin-left: 40px;
+}
+.signin form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 50%;
+  height: 50vh;
+  margin: 4rem auto;
+}
+.signin form h1 {
+  margin-bottom: 20px;
+}
+.signin form input {
+  all: unset;
+  width: 40%;
+  padding: 10px 10px;
+  margin: 0.8rem 0.5rem;
+  border-radius: 5px;
+  border: 2px solid #1f8268;
+}
+.sign-btn {
+  all: unset;
+  background-color: #1f8268;
+  padding: 8px 26px;
+  border: none;
+  margin-top: 1%;
+  border-radius: 5px;
+  width: 35%;
+  text-align: center;
+}
+
+.signin form span {
+  /* color: gray; */
+  text-align: center;
+  margin-top: 200px;
+}
+.sign-btn span {
+  color: white;
+}
+.signin form p {
+  margin-top: 15px;
+  color: gray;
+}
+.signin form a {
+  color: #1f8268;
+  text-decoration: underline;
+}

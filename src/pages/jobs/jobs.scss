@@ -70,7 +70,9 @@
           }
         }
       }
-
+      .multipleJobs:active{
+        background-color: var(--backgroundColor);
+      }
       .multipleJobs:hover {
         border-left: 4px solid gray;
       }

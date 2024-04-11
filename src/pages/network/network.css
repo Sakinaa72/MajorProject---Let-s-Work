@@ -66,6 +66,7 @@
   margin-right: 15px;
   font-size: 18px;
   color: gray;
+  cursor: pointer;
 }
 .accept{
   all: unset;
@@ -73,6 +74,7 @@
   border-radius: 30px;
   padding: 3px 12px;
   color: var(--themeColor);
+  cursor: pointer;
 
 }
 .invitations img{

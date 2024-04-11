@@ -1,0 +1,48 @@
+.addskills {
+  display: flex;
+}
+.addskills form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+  margin-left: 2rem;
+  width: 70%;
+}
+.addskills form h5 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.addskills form h4 {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3%;
+  margin-top: 0.7rem;
+}
+.addskills form h1 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.addskills form input {
+  width: 80%;
+  border: 1px solid lightgray;
+  padding: 0.7rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.addskills form p {
+  color: gray;
+  font-size: 14px;
+}
+#skill-btn {
+  all: unset;
+  background-color: var(--btn);
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}

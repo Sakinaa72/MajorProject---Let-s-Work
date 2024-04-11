@@ -1,0 +1,70 @@
+.aboutme {
+  display: flex;
+}
+#aboutSideBar {
+  height: 100vh;
+  width: 50%;
+  background-color: var(--text);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#aboutSideBar h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+#aboutSideBar h2 {
+  color: white;
+  font-size: 20px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+#aboutSideBar h3 {
+  color: white;
+  margin-left: 2rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.aboutme form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+  margin-left: 2rem;
+  width: 70%;
+}
+.aboutme form h1 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.aboutme form input {
+  width: 80%;
+  border: 1px solid lightgray;
+  padding: 0.7rem 0.5rem;
+  margin-bottom: 1rem;
+}
+form span {
+  margin-bottom: 1%;
+}
+#about-btn {
+  all: unset;
+  margin-top: 160px;
+  background-color: var(--btn);
+  text-align: center;
+  width: 80%;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.gender button {
+  all: unset;
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 8px 4px;
+}

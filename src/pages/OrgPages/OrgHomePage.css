@@ -1,0 +1,43 @@
+.OrgHome {
+  display: flex;
+  background-color: var(--background-color);
+  justify-content: space-around;
+  height: 100vh;
+}
+.content {
+  text-align: center;
+  margin: 5% auto;
+}
+.content h2 {
+  color: #1f8268;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 3vw;
+}
+.content h3 {
+  margin: auto 6%;
+  color: #190a28;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2vw;
+  font-weight: 500;
+}
+.content button {
+  all: unset;
+  background-color: var(--themeColor);
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  margin-top: 3%;
+  font-size: 2vw;
+}
+.content button a {
+  color: white;
+}
+
+.OrgHomeBanner img {
+  height: 70%;
+  width: 90%;
+  margin-right: 6%;
+}

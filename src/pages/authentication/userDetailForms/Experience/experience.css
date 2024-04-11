@@ -1,0 +1,44 @@
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+.experience form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+  margin-left: 2rem;
+  width: 60%;
+}
+.experience form h1 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.experience form input {
+  width: 80%;
+  border: 1px solid lightgray;
+  padding: 0.7rem 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#exp-btn {
+  all: unset;
+  background-color: var(--btn);
+  text-align: center;
+  width: 78%;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.experience section div button {
+  all: unset;
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.experience section textarea {
+  border: 1px solid lightgray;
+  width: 80%;
+}

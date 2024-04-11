@@ -1,49 +1,44 @@
-import "./TopCompanies.css"
+import "./TopCompanies.css";
+import { useState } from "react";
+import { SliderData } from "./SliderData.jsx";
+import forward from "../../../assets/forward.png";
+import backward from "../../../assets/back.png";
 
 function TopCompanies() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex + 3 < SliderData.length ? prevIndex + 3 : 0
+    );
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex - 3 >= 0 ? prevIndex - 3 : SliderData.length - 3
+    );
+  };
+
   return (
     <div className="topcompanies">
       <h1>Job Openings in Top Companies</h1>
-      <section>
-        <div className="company">
-          <img
-            src="https://apna.co/_next/image?url=https%3A%2F%2Fapna-organization-logos.gumlet.io%2Fproduction%2F322333%3Fw%3D128&w=1920&q=75"
-            alt=""
-          />
-          <h3>Zomato</h3>
-          <p>food delivery and ordering platform</p>
-          <button>View jobs </button>
+      <section className="slider-container">
+        <img src={backward} onClick={prevSlide} alt="backward" />
+
+        <div className="slider">
+          {SliderData.slice(currentIndex, currentIndex + 4).map((item) => (
+            <div className="slide" key={item.id}>
+              <img src={item.companyImg} alt="" />
+              <h3>{item.companyName}</h3>
+              <p>{item.companyDesc}</p>
+              <button>View jobs </button>
+            </div>
+          ))}
         </div>
-        <div className="company">
-          <img
-            src="https://apna.co/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fmumbai_apnatime_prod%2Fapna-home%2Fcompanies%2Fhdfc.png&w=1920&q=75"
-            alt=""
-          />
-          <h3>Hdfc Bank</h3>
-          <p>Banking and financial services institutions</p>
-          <button>View jobs</button>
-        </div>
-        <div className="company">
-          <img
-            src="https://apna.co/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fmumbai_apnatime_prod%2Fapna-home%2Fcompanies%2Freliance-nippon.png&w=1920&q=75"
-            alt=""
-          />
-          <h3>Reliance Life Insurance</h3>
-          <p>Financial Services firm</p>
-          <button> View jobs</button>
-        </div>
-        <div className="company">
-          <img
-            src="https://apna.co/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fmumbai_apnatime_prod%2Fapna-home%2Fcompanies%2Freliance-nippon.png&w=1920&q=75"
-            alt=""
-          />
-          <h3>Reliance Life Insurance</h3>
-          <p>Financial Services firm</p>
-          <button> View jobs</button>
-        </div>
+        <img src={forward} onClick={nextSlide} alt="forward" />
       </section>
     </div>
   );
 }
 
-export default TopCompanies
+export default TopCompanies;

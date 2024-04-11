@@ -11,13 +11,16 @@ function NavBar() {
       </div>
       <div className="nav">
         <ul>
-          <NavLink to="/" >Home</NavLink>
-          <NavLink to="/Jobs" >Jobs</NavLink>
-          <NavLink to="/Notification" >Notification</NavLink>
-          <NavLink to="/Network" >Network</NavLink>
-          <NavLink to="/Blog" >Blog</NavLink>
-          <NavLink to="/AboutUs" >About Us</NavLink>
-          <NavLink to="/Profile" > Me <img src={userImg} alt="" /></NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/TimeLine">TimeLine</NavLink>
+          <NavLink to="/Jobs">Jobs</NavLink>
+          <NavLink to="/Notification">Notification</NavLink>
+          <NavLink to="/Network">Network</NavLink>
+          <NavLink to="/AboutUs">About Us</NavLink>
+          <NavLink to="/FeedBack">FeedBack</NavLink>
+          <NavLink to="/Profile">
+            Me <img src={userImg} alt="" />
+          </NavLink>
         </ul>
       </div>
     </div>

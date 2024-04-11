@@ -1,0 +1,13 @@
+.detail-profile-container {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  max-height: 75vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,57 @@
+.shift {
+  display: flex;
+}
+
+.shift section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 2rem;
+  width: 70%;
+}
+.shift section h1 {
+  font-size: 24px;
+  margin-bottom: 0.1rem;
+}
+
+.shift section h1 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.shift section input {
+  border: 1px solid lightgray;
+  padding: 0.7rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.shift section h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0.7rem;
+  margin-bottom: 1%;
+}
+.shift section div {
+  border: 1px solid lightgray;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.shift section div input {
+  border: 1px solid black;
+  font-size: 18px;
+}
+#shift-btn {
+  all: unset;
+  margin-top: 40px;
+  background-color: var(--btn);
+  text-align: center;
+  width: 80%;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}

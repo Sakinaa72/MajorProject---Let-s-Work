@@ -11,19 +11,20 @@
   /* margin-top: 45px; */
   line-height: 60px;
 }
+
 .home-content h1 {
   color: #1f8268;
   font-size: 20px;
-  margin: 10px 150px;
+  margin: auto 6%;
 }
 .home-content h2 {
   margin: auto;
   text-align: center;
   color: #190a28;
-  font-size: 56px;
+  font-size: 4vw;
 }
 .home-content h3 {
-  margin: 10px 150px;
+  margin: auto 6%;
 
   color: #190a28;
   font-size: 24px;
@@ -31,7 +32,7 @@
 }
 .input-content {
   display: flex;
-  margin: 30px 150px;
+  margin: auto 6%;
 }
 .input-content input {
   all: unset;
